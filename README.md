@@ -6,6 +6,6 @@
 -  there's no `dist` folder right now because there are TS errors, and I've set `noEmitOnError` in tsconfig to `true`
 - once it's generated, don't touch anything in `dist`; that's now generated automatically
 - check the terminal for any typescript errors
-- you'll need this for linting & autocomplete (TS calls this "intellisense"). In Sublime 4, install `LSP` and `LSP-typescript`. You might have to restart the app for this to take effect, but this should highlight errors and suggest TS types as you type.
+- you'll need a little bit of setup for linting & autocomplete (TS calls this "intellisense"). In Sublime 4, install `LSP` and `LSP-typescript`. You might have to restart the app for this to take effect, but this should highlight errors and suggest TS types as you type.
 - check out `tsconfig.json` for important config
 - enjoy writing much better code and occasionally wanting to tear your hair out
